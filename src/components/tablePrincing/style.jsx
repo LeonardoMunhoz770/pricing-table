@@ -10,7 +10,7 @@ export const Container = styled.div`
   border-radius: 10px;
   border: 1px solid var(--color-gray-200);
   @media (max-width: 410px) {
-    width: 100%;
+    width: 320px;
   }
 `;
 
@@ -85,6 +85,9 @@ export const TopAdvantge = styled.div`
     position: relative;
     left: 93px;
     top: -67px;
+  }
+  @media (max-width: 410px) {
+    left: 61px;
   }
 `;
 
